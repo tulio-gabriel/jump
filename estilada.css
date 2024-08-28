@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50vw;
+    height: 10vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 10px;
+}
+body{
+    background-color: lightgray;
+}
+#btn{
+    background-color: green;
+    border-radius: 5px;
+    text-align: center;
+}
+#btn:hover{
+    background-color: rgb(50, 201, 50);
+}
+#resultados{
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 10px;
+    color: black;
+    width: 70vw;
+    height: 50vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 10px;
+    margin-top: 10px;
+}
+#imagem{
+    flex: auto;
+}
+
