@@ -25,11 +25,11 @@
     <script>
         function clic(){
             let img=document.getElementById("imagem")
-            let source=img.getAttribute("src")
-            img.setAttribute("src","jumps.webp")
-            var audio = new Audio('fnaf-jumpscare-sound.mp3');
+             var audio = new Audio('fnaf-jumpscare-sound.mp3');
             audio.addEventListener('canplaythrough', function() {
             audio.play();
+            let source=img.getAttribute("src")
+            img.setAttribute("src","jumps.webp")
             });
             let input=document.getElementById('iinput').value;
             let res=document.getElementById('resultados')
