@@ -20,13 +20,13 @@
         </form>
     </main>
     <div id="resultados">
-        <img id="imagem" src="img/nome.png" alt="">
+        <img id="imagem" src="nome.png" alt="">
     </div>
     <script>
         function clic(){
             let img=document.getElementById("imagem")
             let source=img.getAttribute("src")
-            img.setAttribute("src","img/jumps.webp")
+            img.setAttribute("src","jumps.webp")
             var audio = new Audio('audio/fnaf-jumpscare-sound.mp3');
             audio.addEventListener('canplaythrough', function() {
             audio.play();
